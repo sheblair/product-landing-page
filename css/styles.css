@@ -163,18 +163,25 @@
   
 /* FOOTER STYLES - MOBILE */
 
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .footer-content-wrapper {
     display: flex;
     justify-content: flex-end;
     flex-flow: column;
     background-color: gainsboro;
+    width: 90%;
   }
   
   footer ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    margin: 20px 0 0 0;
   }
 
   footer ul li a {
@@ -202,6 +209,15 @@
     /* FEATURES STYLES - TABLET */
     #features {
       flex-flow: column;
+    }
+
+    .feature {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 80%;
     }
 
     .description {
@@ -281,6 +297,7 @@
       height: 12px;
       width: 80vw;
       padding: 5px;
+      text-align: left;
     }
 
   /* PRICING - DESKTOP STYLES */
