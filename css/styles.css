@@ -33,6 +33,7 @@
   
   #header img {
     width: 80%;
+    margin-top: 20px
   }
   
   #nav-bar {
@@ -78,7 +79,7 @@
     max-width: 200px;
   }
   
-  #submit, {
+  #submit {
     background-color: #ffc338;
     border: none;
     font-weight: bold;
@@ -97,6 +98,8 @@
     text-align: center;
   }
   
+  .feature {}
+
   .icon {
     color: orange;
     font-size: 3em;
@@ -181,8 +184,9 @@
     margin: 20px 0;
   }
 
-  footer ul li {
+  footer ul li a {
     text-decoration: none;
+    color: black;
   }
   
   .footer-copyright {
@@ -194,6 +198,140 @@
 
 /* MEDIA QUERIES */
 
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     /* TABLET STYLES HERE */
+
+    /* HEADER STYLES - TABLET */
+    #header img {
+      width: 60%;
+    }
+
+    /* FEATURES STYLES - TABLET */
+    #features {
+      flex-flow: column;
+    }
+
+    .description {
+      width: 70%;
+    }
+
+    /* HOW IT WORKS STYLES - TABLET */
+    #how-it-works iframe {
+      max-width: 560px;
+    }
+
+    /* PRICING STYLES - TABLET */
+
+    .pricing-option {
+      width: 50%;
+    }
+
+    /* FOOTER STYLES - TABLET */
+    footer ul {
+      justify-content: space-evenly;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    /* DESKTOP STYLES HERE */
+    
+    /* HEADER STYLES - DESKTOP */
+    #header {
+      flex-flow: row wrap;
+    }
+
+    #header img {
+      width: 30%;
+      margin-top: 0;
+    }
+
+    #nav-bar {
+
+    }
+
+    #nav-bar ul {
+      flex-flow: row wrap;
+    }
+    
+    .nav-link {
+      padding: 0 20px;
+    }
+
+    /* EMAIL SIGNUP - DESKTOP STYLES */
+      #email-signup {
+        margin-top: 40px;
+      } 
+
+    /* FEATURES - DESKTOP STYLES */
+    #features {
+      display: flex;
+      flex-flow: row wrap;
+      text-align: left;
+    }
+
+    div.feature {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+    }
+
+    div.icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 125px;
+      width: 20vw;
+    }
+
+    div.description {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      height: 12px;
+      width: 80vw;
+      padding: 5px;
+    }
+
+  /* PRICING - DESKTOP STYLES */
+
+    #pricing {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 50px 0;
+    }
+
+    .pricing-option {
+      width: 25%;
+      margin: 0 30px;
+    }
+
+    /* FOOTER STYLES - DESKTOP */
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .footer-content-wrapper {
+      flex-flow: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 1000px;
+      margin-top: 40px;
+    }
+
+    footer ul {
+      margin: 0;
+    }
+
+    footer ul li {
+      padding: 10px;
+    }
+
+    .footer-copyright {
+      margin: 0;
+      padding: 0 10px 10px 0;
+    }
   }
