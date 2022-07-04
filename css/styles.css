@@ -17,8 +17,6 @@
     margin: 20px;
   }
 
-  .main {}
-
   /* HEADER STYLES - MOBILE */
   
   #header {
@@ -98,8 +96,6 @@
     text-align: center;
   }
   
-  .feature {}
-
   .icon {
     color: orange;
     font-size: 3em;
@@ -108,9 +104,6 @@
 
   .description {
     margin: 10px 0;
-  }
-  
-  #features h2 {
   }
   
 /* HOW IT WORKS STYLES - MOBILE */  
@@ -243,10 +236,6 @@
     #header img {
       width: 30%;
       margin-top: 0;
-    }
-
-    #nav-bar {
-
     }
 
     #nav-bar ul {
