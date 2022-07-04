@@ -1,4 +1,4 @@
-# README for product-landing-page (freeCodeCamp project in Responsive Web Design Certification Curriculum)
+### README for product-landing-page (freeCodeCamp project in Responsive Web Design Certification Curriculum)
 
 So I've mostly fixed all the errors and issues with making this site repsonsive, and I've added two breakpoints (768px for tablet and 1200px for desktop) BUT there are a couple of issues that remain, which I haven't yet resolved:
 
